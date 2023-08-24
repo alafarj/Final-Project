@@ -6,4 +6,3 @@ window.addEventListener ("scroll",function(){
 
 let menu = document.querySelector('#nav-icon');
 let navmenu = document.querySelector('navbar');
-
