@@ -310,6 +310,8 @@ body {
 /* Styling for the client reviews section */
 .client-reviews {
   background-color: #F3F4F6;
+  margin-top: 70px;
+  padding: 30PX;
 }
 
 /* Styling for the reviews section */
