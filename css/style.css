@@ -416,7 +416,9 @@ body {
 .contact-info {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, auto));
-  gap: 3rem;
+  gap: 3rem; margin-top: 100px;
+  height: 300px;
+  padding: 60px;
 }
 
 /* Styling for the first contact information block */
