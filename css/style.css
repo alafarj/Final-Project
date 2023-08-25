@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: 'Merriweather', sans-serif;
 }
 
@@ -497,7 +498,7 @@ body {
 }
 
 @media (max-width: 750px) {
-  .navbar {
+  .navbar{
     position: absolute;
     top: 100%;
     right: -100%;

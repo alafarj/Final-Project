@@ -8,5 +8,11 @@ window.addEventListener("scroll", function () {
 });
 
 // Select the menu icon and navigation menu
-let menu = document.querySelector('#nav-icon');
-let navmenu = document.querySelector('navbar');
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('open');
+}
